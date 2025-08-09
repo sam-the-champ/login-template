@@ -1,0 +1,84 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body, html {
+  height: 100%;
+}
+
+/* Background */
+body {
+  background: linear-gradient(135deg, #1e1e2f, #3a3a52);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Container */
+.container {
+  padding: 20px;
+}
+
+/* Card */
+.neumorphic-card {
+  background: #e0e5ec;
+  border-radius: 25px;
+  box-shadow: 10px 10px 30px #a3b1c6, -10px -10px 30px #ffffff;
+  padding: 40px 30px;
+  width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Heading */
+.neumorphic-card h1 {
+  margin-bottom: 25px;
+  color: #333;
+  font-size: 28px;
+}
+
+/* Input Fields */
+.neumorphic-input {
+  background: #e0e5ec;
+  border: none;
+  border-radius: 15px;
+  box-shadow: inset 8px 8px 16px #a3b1c6,
+              inset -8px -8px 16px #ffffff;
+  padding: 12px 20px;
+  margin: 10px 0;
+  width: 100%;
+  font-size: 16px;
+  outline: none;
+  transition: 0.3s ease;
+}
+
+.neumorphic-input:focus {
+  box-shadow: inset 2px 2px 5px #a3b1c6,
+              inset -2px -2px 5px #ffffff;
+}
+
+/* Button */
+.neumorphic-button {
+  background: #e0e5ec;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 6px 6px 12px #a3b1c6,
+              -6px -6px 12px #ffffff;
+  padding: 12px 25px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.neumorphic-button:hover {
+  box-shadow: inset 4px 4px 8px #a3b1c6,
+              inset -4px -4px 8px #ffffff;
+  transform: scale(0.98);
+}
